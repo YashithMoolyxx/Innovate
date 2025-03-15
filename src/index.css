@@ -42,3 +42,60 @@ body{
   box-shadow: 0 0 20px white,
   0 0 20px white;
 }
+
+.box1:hover{
+  box-shadow: 0 0 10px rgb(4, 188, 4),
+  0 0 20px white;
+}
+
+.box2:hover{
+  box-shadow: 0 0 10px rgb(4, 188, 4),
+  0 0 20px white;
+}
+
+.box3:hover{
+  box-shadow: 0 0 10px rgb(4, 188, 4),
+  0 0 20px white;
+}
+
+.box4:hover{
+  box-shadow: 0 0 10px rgb(4, 188, 4),
+  0 0 20px white;
+}
+
+.box5:hover{
+  box-shadow: 0 0 10px rgb(4, 188, 4),
+  0 0 20px white;
+}
+
+.box6:hover{
+  box-shadow: 0 0 10px rgb(4, 188, 4),
+  0 0 20px white;
+}
+
+.scrolling-text {
+  font-size: 2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  
+  width: 100%;
+  animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.bgf{
+  background: linear-gradient(to right, #28a745, #009688);
+
+}
+
