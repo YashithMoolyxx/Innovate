@@ -225,6 +225,8 @@ const Home = () => {
 
       </div>
 
+      
+
       <footer className="bgf text-white text-center py-4 mt-10">
       <div className="container mx-auto">
         <p className="text-lg font-semibold">© 2025 Community Action. All Rights Reserved.</p>
