@@ -13,6 +13,7 @@ const Navbar = () => {
         <div className="navlinks font-extrabold ">
           <Link className='text-white mx-7 hover:text-green-500' to='/'>Home</Link>
           <Link className='text-white mx-7 hover:text-green-500' to='/problems'>Problems</Link>
+          <Link className='text-white mx-7 hover:text-green-500' to='/dashboard'>Dashboard</Link>
           <Link className='text-white mx-7 hover:text-green-500' to='/success'>Success</Link>
           <button className='login text-white py-2 px-5 mx-5 rounded-[16px]'>Login</button>
         </div>

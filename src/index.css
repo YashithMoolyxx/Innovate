@@ -99,3 +99,8 @@ body{
 
 }
 
+.menubar{
+  box-shadow: 0 0 20px rgb(6, 145, 6),
+  0 0 10px white ;
+}
+
